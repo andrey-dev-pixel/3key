@@ -762,6 +762,20 @@ img {
   }
 }
 
+@media screen and (min-width: 821px) {
+   
+  .center {
+    margin-top: 25px;
+  } 
+}
+
+@media screen and (max-width: 752px) {
+  
+  .top {
+    margin-top: 0px; 
+  }
+}
+
  /* 320 - 576 px */
 @media screen and (max-width: 576px) {
   
