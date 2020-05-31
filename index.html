@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>3Key</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+	<!-- Bootstrap Reboot CSS --> 
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!--slider CSS-->
+	<link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="css/main.css" type="text/css">
+</head>
+<body id="page-top">
+	<nav class="nav" id="nav">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-1 d-lg-none">
+	               	<button type="button" id="button-collapsed" class="menu-open" aria-expanded="false">
+			            <span class="icon-bar" id="span1"></span>
+			            <span class="icon-bar" id="span2"></span>
+			            <span class="icon-bar" id="span3"></span>
+	                </button>
+            	</div>
+				<div class="col-2 col-lg-2">
+					<div class="nav-logo">
+						<a href="index.html">
+							<img src="img/logo.png" alt="image">
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-7 d-none d-lg-block menu-collapse">
+					<ul class="nav-menu d-flex">
+						<li class="nav-item">
+							<a href="index.html" class="nav-link">
+								Главная
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="#services" class="nav-link">
+								Услуги
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="#about" class="nav-link">
+								Прайс
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="#about" class="nav-link">
+								О компании
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="index.html/#contact" class="nav-link">
+								Отзывы
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="index.html/#contact" class="nav-link">
+								Контакты
+							</a>
+						</li>
+					</ul>
+				</div>
+            	<div class="col-8 col-lg-3">
+            		<div class="nav-phones d-flex">
+            			<a href="#" class="nav-phones__btn d-none d-sm-block"> 
+            				<i class="fas fa-phone"></i>
+            			</a>
+            			<div class="nav-phones__numbers">
+            				<a href="+7-384-265-01-20">
+            					+7-384-265-01-20
+            				</a>
+            				<p class="nav-phones__days d-none d-sm-block">
+            					ПН-ПТ 10:00 - 19:00<br>
+								СБ-ВС  12:00 - 14:00
+            				</p>
+            			</div>
+            		</div>
+            	</div>
+			</div>
+		</div>
+	</nav>
+	<header class="header" id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 d-md-block d-lg-none">
+					<h1 class="header-title__alt">
+						Простое решение<br> сложных вопросов
+					</h1>
+					<p class="header-text__alt">
+						Квалифицированная помощь в сфере<br> 
+						правовой поддержки, продвижения бизнеса,<br> 
+						разработке интернет-ресурсов
+					</p>
+					<button type="button" class="header-btn btn">
+						Заказать звонок
+					</button>
+					<div class="header-social__alt d-flex">
+					<a href="#" class="header-social__icon_alt">
+						<i class="fab fa-instagram"></i>
+					</a>
+					<a href="#" class="header-social__icon_alt">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+					<a href="#" class="header-social__icon_alt">
+						<i class="fab fa-vk"></i>
+					</a>
+				</div>
+				</div>
+				<div class="d-none d-lg-block col-lg-7">
+					<div class="header-titles">
+						<h1 class="header-title">
+							Создание и<br> 
+							сопровождение сайтов любой сложности
+						</h1>
+						<p class="header-text">
+							Мы поможем вам решить и воплатить в<br> жизнь любые интернет проекты, любой<br> сложности.
+						</p>
+					</div>
+					<button type="button" class="header-btn">
+						Заказать звонок
+					</button>
+				</div>
+				<div class="d-none d-lg-block col-lg-5">
+					<div class="header-img"></div>
+				</div>
+				<div class="header-social d-none d-lg-block">
+					<a href="#" class="header-social__icon">
+						<i class="fab fa-instagram"></i>
+					</a>
+					<a href="#" class="header-social__icon">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+					<a href="#" class="header-social__icon">
+						<i class="fab fa-vk"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="capabilities d-none d-lg-block" id="capabilities">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5">
+					<div class="capabilities-img"></div>
+				</div>
+				<div class="col-lg-7">
+					<div class="capabilities-info">
+						<h2 class="capabilities-title">
+							Какие задачи мы поможем вам решить
+						</h2>
+						<ul class="capabilities-list">
+							<li class="capabilities-item">
+								<span>
+									Интернет магазины.
+								</span>
+							</li>
+							<li class="capabilities-item">
+								<span>
+									Эксклюзивные лендинги.
+								</span>
+							</li>
+							<li class="capabilities-item">
+								<span>
+									Сайты по шаблону.
+								</span>
+							</li>
+							<li class="capabilities-item">
+								<span>
+									Полная настройка сайта и админ панели.
+								</span>
+							</li>
+							<li class="capabilities-item">
+								<span>
+									Сайт любой сложности под ключ.
+								</span>
+							</li>
+							<li class="capabilities-item">
+								<span>
+									Обслуживание ваших сайтов.
+								</span>
+							</li>
+							<li class="capabilities-item">
+								<span>
+									Доработка вашего сайта.
+								</span>
+							</li>
+							<li class="capabilities-item">
+								<span>
+									Многостраничные сайты.
+								</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="capabilities-alt d-md-block d-lg-none" id="capabilities-alt">
+		<div class="container">
+			<h2 class="capabilities-alt__title">
+				Наши направления
+			</h2>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="capabilities-alt__card">
+						<img src="img/notebook.png" alt="image">
+						<h3 class="capabilities-alt__card_title">
+							Веб-услуги					
+						</h3>
+						<a href="#">
+							Подробнее &#62
+						</a>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="capabilities-alt__card">
+						<img src="img/girl.png" alt="image">
+						<h3 class="capabilities-alt__card_title">
+							Юридические-услуги
+						</h3>
+						<a href="#">
+							Подробнее &#62
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="capabilities-alt__card">
+						<img src="img/mans.png" alt="image">
+						<h3 class="capabilities-alt__card_title">
+							Консалтинговые-услуги
+						</h3>	
+						<a href="#">
+							Подробнее &#62
+						</a>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="capabilities-alt__card">
+						<img src="img/hands.png" alt="image">
+						<h3 class="capabilities-alt__card_title">
+							Бухгалтерские-услуги
+						</h3>
+						<a href="#">
+							Подробнее &#62
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="work d-none d-lg-block" id="work">
+		<div class="container">
+			<div class="work-titles">
+				<h2 class="work-titles__title">
+					Как мы работаем
+				</h2>
+				<p class="work-titles__text">
+					Весь технологический процесс полностью идет 
+					в тесном сотрудничестве с клиентом нашей компании. 
+				</p>
+				<button type="button" class="work-btn">
+					Заказать звонок
+				</button>
+			</div>
+			<div class="work-item one">
+				<div class="work-item__info d-flex">
+					1
+					<p class="work-item_info__text">
+						Оставьте заявку на звонок<br> 
+						обратной связи
+					</p>
+				</div>
+				<div class="work-item__pointer">
+					<div class="pointer-cirkle"></div>
+					<div class="pointer-arrow"></div>
+				</div>
+			</div>
+			<div class="work-item two">
+				<div class="work-item__info d-flex">
+					2
+					<p class="work-item_info__text">
+						Дождитесь звонка от<br> 
+						нашего специалиста
+					</p>
+				</div>
+				<div class="work-item__pointer">
+					<div class="pointer-cirkle"></div>
+					<div class="pointer-arrow"></div>
+				</div>
+			</div>
+			<div class="work-item three">
+				<div class="work-item__info d-flex">
+					3
+					<p class="work-item_info__text">
+						Расскажите нам о продукте 
+						который<br> вы хотите получить
+					</p>
+				</div>
+				<div class="work-item__pointer">
+					<div class="pointer-cirkle"></div>
+					<div class="pointer-arrow"></div>
+				</div>
+			</div>
+			<div class="work-item four">
+				<div class="work-item__info d-flex">
+					4
+					<p class="work-item_info__text">
+						Используйте готовый продукт<br> для
+						своих личных и бизнес целей
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="price d-none d-lg-block" id="price">
+		<div class="container">
+			<h2 class="price-title">
+				Стоимость услуг
+			</h2>
+			<div class="price-card">
+				<p class="price-card__text">
+					Cоздание сайта под ключ
+				</p>
+				<span class="vertical-line"></span>
+				5000 pуб
+			</div>
+			<div class="price-card">
+				<p class="price-card__text">
+					Обслуживание ваших сайтов
+				</p>
+				<span class="vertical-line"></span>
+				7000 руб
+			</div>
+			<div class="price-card">
+				<p class="price-card__text">
+					Доработка вашего сайта
+				</p>
+				<span class="vertical-line"></span>
+				3000 руб
+			</div>
+			<div class="price-card">
+				<p class="price-card__text">
+					Интернет магазин
+				</p>
+				<span class="vertical-line"></span>
+				10000 руб
+			</div>
+			<div class="price-card">
+				<p class="price-card__text">
+					Эксклюзивные лендинги
+				</p>
+				<span class="vertical-line"></span>
+				8000 руб
+			</div>
+			<button type="button" class="price-btn">
+				Заказать звонок
+			</button>
+		</div>
+	</section>
+	<section class="about" id="about">
+		<div class="container">
+			<div class="row">
+				<div class=" col-12 col-sm-6 col-lg-7">
+					<div class="about-titles">
+						<h2 class="about-titles__title d-none d-lg-block">
+							О компании
+						</h2>
+						<h2 class="about-titles__title_alt d-md-block d-lg-none">
+							О нас
+						</h2>
+						<p class="about-titles__text">
+							Трикей - организация, объединяющая экспертов в области веб-технологий. Компания нацелена на консолидацию сил успешных, практикующих специалистов в области IT, для решения задач любой сложности. В своей деятельности, мы руководствуемся тремя принципами:
+						</p>
+						<div class="about-item__info d-flex">
+							<div class="about-item__number">
+								1
+							</div>
+							<div class="about-item">
+								<p class="about-item__info top">
+									Честностью<br> по отношению к клиенту
+								</p>
+								<span class="horizontal-line"></span>
+							</div>							
+						</div>
+						<div class="about-item__info d-flex">
+							<div class="about-item__number">
+								2
+							</div>
+							<div class="about-item">
+								<p class="about-item__info center">
+									Доступность и прозрачность<br> в ценовой политике
+								</p>
+								<span class="horizontal-line"></span>
+							</div>
+						</div>
+						<div class="about-item__info d-flex">
+							<div class="about-item__number">
+								3
+							</div>
+							<div class="about-item">
+								<p class="about-item__info">
+									Оперативность в<br> разрешении дел
+								</p>
+								<span class="horizontal-line"></span>
+							</div>
+						</div>
+					</div>
+					<button type="button" class="about-btn btn d-block d-sm-none">
+						Заказать звонок
+					</button>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-5">
+					<div class="about-img"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="reviews" id="reviews">
+		<div class="container">
+			<h2 class="reviews-title">
+				Отзывы клиентов
+			</h2>
+			<div class="reviews-slider">
+				<div class="reviews-card">
+					<div class="reviews-card__titles d-flex">
+						<i class="fas fa-user-circle"></i>
+						<h4 class="reviews-card__title">
+							Марина Сергеевна<br>
+							<span>Предприниматель</span>
+						</h4>
+					</div>
+					<p class="reviews-card__text">
+						Спасибо юристам компании «3кей» за проделанную работу! Обращалась для раздела совместно нажитого имущества с бывшим мужем, все объяснили, помогли.
+					</p>
+				</div>
+				<div class="reviews-card">
+					<div class="reviews-card__titles d-flex">
+						<i class="fas fa-user-circle"></i>
+						<h4 class="reviews-card__title">
+							Кирилл Баев<br>
+							<span>Самозанятый</span>
+						</h4>
+					</div>
+					<p class="reviews-card__text">
+						На сайте заказал звонок. Перезвонили быстро, дали полную консультацию, позже пришел к ним в офис подписали договор, дело выиграли, спасибо за помощь.
+					</p>
+				</div>
+				<div class="reviews-card">
+					<div class="reviews-card__titles d-flex">
+						<i class="fas fa-user-circle"></i>
+						<h4 class="reviews-card__title">
+							Марина Сергеевна<br>
+							<span>Предприниматель</span>
+						</h4>
+					</div>
+					<p class="reviews-card__text">
+						Спасибо юристам компании «3кей» за проделанную работу! Обращалась для раздела совместно нажитого имущества с бывшим мужем, все объяснили, помогли.
+					</p>
+				</div>
+				<div class="reviews-card">
+					<div class="reviews-card__titles d-flex">
+						<i class="fas fa-user-circle"></i>
+						<h4 class="reviews-card__title">
+							Кирилл Баев<br>
+							<span>Самозанятый</span>
+						</h4>
+					</div>
+					<p class="reviews-card__text">
+						На сайте заказал звонок. Перезвонили быстро, дали полную консультацию, позже пришел к ним в офис подписали договор, дело выиграли, спасибо за помощь.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="contacts" id="contacts">
+		<div class="container">
+			<h2 class="contacts-title">
+				Контакты
+			</h2>
+			<div class="row">
+				<div class="col-lg-3">
+					<h4 class="contacts-info__titile">
+						Телефон:
+					</h4>
+					<p class="contacts-info__text">
+						<a href="+7-384-265-01-20">
+							+7-384-265-01-20
+						</a>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<h4 class="contacts-info__titile">
+						E-mail:
+					</h4>
+					<p class="contacts-info__text">
+						<a href="http:/3key@gmail.com">
+							3key@gmail.com
+						</a>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<h4 class="contacts-info__titile">
+						Адрес
+					</h4>
+					<p class="contacts-info__text">
+						г. Кемерово,<br>
+						ул. Демьяна Бедного 6,<br>
+						офис 38
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<h4 class="contacts-info__titile">
+						Часы работы
+					</h4>
+					<p class="contacts-info__text">
+						ПН-ПТ 10:00 - 19:00<br>
+						СБ-ВС  12:00 - 14:00
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="map" id="map">
+		<div class="container-fluid">
+			<div class="contacts-map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9074.965896951673!2d86.0791282472464!3d55.34505988339491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x42d80bfbb64dff2f%3A0xadf7894d65f9d4cd!2z0YPQuy4g0JTQtdC80YzRj9C90LAg0JHQtdC00L3QvtCz0L4sIDYsIDM4LCDQmtC10LzQtdGA0L7QstC-LCDQmtC10LzQtdGA0L7QstGB0LrQsNGPINC-0LHQuy4sINCg0L7RgdGB0LjRjywgNjUwMDAw!5e0!3m2!1sru!2sua!4v1590905275153!5m2!1sru!2sua" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			</div>
+		</div>
+	</section>
+	<section class="contact-form" id="contact-form">
+		<div class="container">
+			<h2 class="contact-form__title">
+				Остались вопросы?
+			</h2>
+			<form action="success.php" class="js-form" id="popupResult">
+				<input type="text" name="name" required placeholder="Ваше имя:"  class="form-control form__field">
+				<input type="text" name="email" required placeholder="Ваш номер телефона:"  class="form-control form__field">
+				<button class="contact-form__btn btn" data-submit>
+					Заказать звонок
+				</button>
+				<p class="contact-form__text">
+					Звонок безплатный
+				</p>
+			</form>			
+		</div>
+	</section>
+	<footer class="footer" id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2">
+					<div class="footer-logo">
+						<a href="index.html">
+							<img src="img/logo.png" alt="image">
+						</a>
+						<p class="footer-text">
+							&#169 3key.ru 2020
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-8 d-flex footer-list">
+					<div class="footer-block">
+						<p class="footer-text">
+							г.Кемерово,<br> 
+							ул. Демьяна Бедного 6, офис 38
+						</p>
+						<p class="footer-text">
+							ПН-ПТ 10:00 - 19:00<br>
+							СБ-ВС  12:00 - 14:00
+						</p>
+					</div>
+					<div class="footer-block">
+						<p class="footer-text">
+							<a href="#">
+								ГЛАВНАЯ
+							</a>
+						</p>
+						<p class="footer-text">
+							<a href="#">	
+								НАШИ НАПРАВЛЕНИЯ
+							</a>
+						</p>
+						<p class="footer-text">
+							<a href="#">
+								ОТЗЫВЫ
+							</a>
+						</p>
+					</div>
+					<div class="footer-block footer-right">
+						<p class="footer-text">
+							<a href="#">
+								О НАС
+							</a>
+						</p>
+						<p class="footer-text">
+							<a href="#">	
+								КОНТАКТЫ
+							</a>
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-2 ml-auto">
+					<p class="footer-text footer-bold">
+						<a href="+7-384-265-01-20">
+							+7-384-265-01-20
+						</a>
+					</p>
+					<p class="footer-text">
+						<a href="http:/3key@gmail.com">	
+							3key@gmail.com
+						</a>
+					</p>
+					<div class="footer-social d-flex ">
+						<a href="#" class="footer-social__icon">
+							<i class="fab fa-instagram"></i>
+						</a>
+						<a href="#" class="footer-social__icon">
+							<i class="fab fa-facebook-f"></i>
+						</a>
+						<a href="#" class="footer-social__icon">
+							<i class="fab fa-vk"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-to-top d-lg-none position-fixed ">
+	    <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+	        <i class="fa fa-chevron-up"></i>
+	    </a>
+    </div>	
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/myjs.js"></script>			
+</body>
+</html>
