@@ -80,7 +80,9 @@ img {
   position: absolute;
   background: #000;
   padding: 30px 0px 30px;
-  width: 100%; }
+  width: 100%;
+  z-index: 1;
+}
 
 .nav-logo {
   /*margin-left: -80%*/ }
@@ -673,11 +675,17 @@ img {
 
 /*finish scroll top*/
 
-/*1200 - 1400*/
+*1200 - 1400*/
 @media screen and (min-width: 1200px) {
     .reviews-card {
         height: 250px;
     }
+
+    .reviews-slider .slick-next,
+    .reviews-slider .slick-prev {
+        top: 35%;
+    }
+}
 
  /*992 - 1200*/
 @media screen and (max-width: 1200px) {
